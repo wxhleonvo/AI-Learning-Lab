@@ -19,6 +19,12 @@ string prompt = $"""
     """;
 
 // prompt = "请用一句话解释 RAG";
+prompt = "请用一句话解释什么是人工智能。";
+prompt = "请用一个生活中的例子解释什么是人工智能。";
+prompt = @"你是一名面向初学者的技术老师。
+
+请用一个生活中的例子解释什么是人工智能。
+不要使用复杂的专业术语。";
 
 // Submit the prompt and print out the response.
 ChatResponse response = await client.GetResponseAsync(
