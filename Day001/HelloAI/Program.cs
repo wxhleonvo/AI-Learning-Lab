@@ -18,7 +18,8 @@ string prompt = $"""
     {text}
     """;
 
-prompt = "请用一句话解释 RAG";
+// prompt = "请用一句话解释 RAG";
+
 // Submit the prompt and print out the response.
 ChatResponse response = await client.GetResponseAsync(
     prompt,

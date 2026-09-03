@@ -1,0 +1,1 @@
+## 参考示例 https://learn.microsoft.com/zh-cn/dotnet/ai/quickstarts/prompt-model?pivots=openai
