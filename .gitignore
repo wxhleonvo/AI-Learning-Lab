@@ -25,3 +25,7 @@ Thumbs.db
 
 # Screenshots temporary files
 *.tmp
+
+# 其他临时文件
+outputs/
+
