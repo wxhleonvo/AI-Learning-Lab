@@ -12,7 +12,6 @@ string? key = config["OpenAIKey"];
 IChatClient client =
     new OpenAIClient(key).GetChatClient(model).AsIChatClient();
 
-
 /*
 // 实验一：Plain Prompt
 string prompt = @"请把下面的中文翻译成英文：
@@ -87,4 +86,10 @@ foreach (var message in messages1)
 ChatResponse response1 =
     await client.GetResponseAsync(messages1);
 Console.WriteLine(response1.Text);
+
+Console.WriteLine("===============历史消息,总共有{0}个==============", response1.Messages.Count);
+foreach(var message in response1.Messages)
+{
+    Console.WriteLine($"{message.Role}: {message.Text}");
+}
 
