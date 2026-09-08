@@ -1,0 +1,29 @@
+[
+  {
+    "review": "物流超快，包装完好，产品非常好用，强烈推荐！",
+    "output": {
+      "sentiment": "Positive",
+      "score": 9,
+      "keywords": ["物流快", "包装好", "产品好用"],
+      "conclusion": "用户对物流、包装和产品都非常满意"
+    }
+  },
+  {
+    "review": "东西收到了，包装完好，目前用着还行，以后再追评。",
+    "output": {
+      "sentiment": "Neutral",
+      "score": 5,
+      "keywords": ["包装完好", "使用体验", "待追评"],
+      "conclusion": "用户态度中性，待后续使用验证"
+    }
+  },
+  {
+    "review": "质量很差，用了两天就坏了，客服还不理人，非常失望。",
+    "output": {
+      "sentiment": "Negative",
+      "score": 1,
+      "keywords": ["质量差", "易损坏", "客服失联"],
+      "conclusion": "产品质量与售后均令用户极度不满"
+    }
+  }
+]
